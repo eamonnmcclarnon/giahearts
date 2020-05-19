@@ -1,0 +1,199 @@
+<html>
+    <head>
+        <style>
+            .shakeimg:hover {
+                animation: shake 0.5s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes shake {
+                0% { transform: translate(1px, 1px) rotate(0deg); }
+                10% { transform: translate(-1px, -2px) rotate(-1deg); }
+                20% { transform: translate(-3px, 0px) rotate(1deg); }
+                30% { transform: translate(3px, 2px) rotate(0deg); }
+                40% { transform: translate(1px, -1px) rotate(1deg); }
+                50% { transform: translate(-1px, 2px) rotate(-1deg); }
+                60% { transform: translate(-3px, 1px) rotate(0deg); }
+                70% { transform: translate(3px, 1px) rotate(-1deg); }
+                80% { transform: translate(-1px, -1px) rotate(1deg); }
+                90% { transform: translate(1px, 2px) rotate(0deg); }
+                100% { transform: translate(1px, -2px) rotate(-1deg); }
+            }
+
+            
+
+        </style>
+        <link rel="stylesheet" href="w3.css">
+
+    </head>
+
+    <body class="">
+
+        <h1>Sample Title for GIA Hearts</h1>
+
+        
+        
+        <div class="w3-row-padding">
+            <div class="w3-half">
+                <div class="w3-cell w3-center w3-border w3-margin-right" style="width: fit-content;" >
+                    <img width="175px" class="shakeimg w3-button" src="ethan.png" id="char1">
+                    <h4>Ethan Hwang</h4>
+                    <div class="w3-center" style="display: block;" id="plusminus1">
+                        <img src="minus.png" alt="" width="50px" id="minus1" onclick="character1.minus()">
+                        <img src="plus.png" alt="" width="50px" id="plus1" onclick="character1.plus()" >
+                    </div>
+                </div>
+
+                <div class="w3-cell w3-cell-middle w3-container" style="width: 100%;" >
+                    <img src="heart.png" height="100px" id="1heart1" style="display: none;">
+                    <img src="heart.png" height="100px" id="1heart2" style="display: none;">
+                    <img src="heart.png" height="100px" id="1heart3" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="1heart4" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="1heart5" style="display: none;">
+                </div>
+            </div>
+            <div class="half">
+                <div class="w3-cell w3-center w3-border w3-margin-right" style="width: fit-content;" >
+                    <img width="170px" class="shakeimg w3-button" src="gene.png" id="char2">
+                    <h4>Gene Kwon</h4>
+                    <div class="w3-center" style="display: block;" id="plusminus2">
+                        <img src="minus.png" alt="" width="50px" id="minus2" onclick="character2.minus()">
+                        <img src="plus.png" alt="" width="50px" id="plus2" onclick="character2.plus()">
+                    </div>
+                </div>
+
+                <div class="w3-cell w3-cell-middle w3-container" style="width: 100%;" >
+                    <img src="heart.png" height="100px" id="2heart1" style="display: none;">
+                    <img src="heart.png" height="100px" id="2heart2" style="display: none;">
+                    <img src="heart.png" height="100px" id="2heart3" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="2heart4" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="2heart5" style="display: none;">
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-half">
+                <div class="w3-cell w3-center w3-border w3-margin-right" style="width: fit-content;" >
+                    <img width="170px" class="shakeimg w3-button" src="henry.jpg" id="char3">
+                    <h4>Henry Kim</h4>
+                    <div class="w3-center" style="display: block;" id="plusminus3">
+                        <img src="minus.png" alt="" width="50px" id="minus3" onclick="character3.minus()">
+                        <img src="plus.png" alt="" width="50px" id="plus3" onclick="character3.plus()">
+                    </div>
+                </div>
+
+                <div class="w3-cell w3-cell-middle w3-container" style="width: 100%;" >
+                    <img src="heart.png" height="100px" id="3heart1" style="display: none;">
+                    <img src="heart.png" height="100px" id="3heart2" style="display: none;">
+                    <img src="heart.png" height="100px" id="3heart3" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="3heart4" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="3heart5" style="display: none;">
+                </div>
+            </div>
+            <div class="w3-half">
+                <div class="w3-cell w3-center w3-border w3-margin-right" style="width: fit-content;" >
+                    <img width="170px" class="shakeimg w3-button" src="jaydenh.jpg" id="char4">
+                    <h4>Jayden Han</h4>
+                    <div class="w3-center" style="display: block;" id="plusminus4">
+                        <img src="minus.png" alt="" width="50px" id="minus4" onclick="character4.minus()">
+                        <img src="plus.png" alt="" width="50px" id="plus4" onclick="character4.plus()">
+                    </div>
+                </div>
+
+                <div class="w3-cell w3-cell-middle w3-container" style="width: 100%;" >
+                    <img src="heart.png" height="100px" id="4heart1" style="display: none;">
+                    <img src="heart.png" height="100px" id="4heart2" style="display: none;">
+                    <img src="heart.png" height="100px" id="4heart3" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="4heart4" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="4heart5" style="display: none;">
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-half">
+                <div class="w3-cell w3-center w3-border w3-margin-right" style="width: fit-content;" >
+                    <img width="170px" class="shakeimg w3-button" src="jaydenj.webp" id="char5">
+                    <h4>Jayden Joo</h4>
+                    <div class="w3-center" style="display: block;" id="plusminus5">
+                        <img src="minus.png" alt="" width="50px" id="minus5" onclick="character5.minus()">
+                        <img src="plus.png" alt="" width="50px" id="plus5" onclick="character5.plus()">
+                    </div>
+                </div>
+
+                <div class="w3-cell w3-cell-middle w3-container" style="width: 100%;" >
+                    <img src="heart.png" height="100px" id="5heart1" style="display: none;">
+                    <img src="heart.png" height="100px" id="5heart2" style="display: none;">
+                    <img src="heart.png" height="100px" id="5heart3" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="5heart4" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="5heart5" style="display: none;">
+                </div>
+            </div>
+            
+
+            <div class="w3-half">
+                <div class="w3-cell w3-center w3-border w3-margin-right" style="width: fit-content;" >
+                    <img height="100px" class="shakeimg w3-button" src="noah.png" id="char6">
+                    <h4>Noah Byun</h4>
+                    <div class="w3-center" style="display: block;" id="plusminus6">
+                        <img src="minus.png" alt="" width="50px" id="minus6" onclick="character6.minus()">
+                        <img src="plus.png" alt="" width="50px" id="plus6" onclick="character6.plus()">
+                    </div>
+                </div>
+
+                <div class="w3-cell w3-cell-middle w3-container" style="width: 100%;" >
+                    <img src="heart.png" height="100px" id="6heart1" style="display: none;">
+                    <img src="heart.png" height="100px" id="6heart2" style="display: none;">
+                    <img src="heart.png" height="100px" id="6heart3" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="6heart4" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="6heart5" style="display: none;">
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-half">
+                <div class="w3-cell w3-center w3-border w3-margin-right" style="width: fit-content;" >
+                    <img width="170px" class="shakeimg w3-button" src="paul.jpeg" id="char7">
+                    <h4>Paul Lee</h4>
+                    <div class="w3-center" style="display: block;" id="plusminus7">
+                        <img src="minus.png" alt="" width="50px" id="minus7" onclick="character7.minus()">
+                        <img src="plus.png" alt="" width="50px" id="plus7" onclick="character7.plus()">
+                    </div>
+                </div>
+
+                <div class="w3-cell w3-cell-middle w3-container" style="width: 100%;" >
+                    <img src="heart.png" height="100px" id="7heart1" style="display: none;">
+                    <img src="heart.png" height="100px" id="7heart2" style="display: none;">
+                    <img src="heart.png" height="100px" id="7heart3" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="7heart4" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="7heart5" style="display: none;">
+                </div>
+            </div>
+            
+
+            <div class="w3-half">
+                <div class="w3-cell w3-center w3-border w3-margin-right" style="width: fit-content;" >
+                    <img width="170px" class="shakeimg w3-button" src="seojun.jpg" id="char8">
+                    <h4>Seojun Oh</h4>
+                    <div class="w3-center" style="display: block;" id="plusminus8">
+                        <img src="minus.png" alt="" width="50px" id="minus8" onclick="character8.minus()">
+                        <img src="plus.png" alt="" width="50px" id="plus8" onclick="character8.plus()">
+                    </div>
+                </div>
+
+                <div class="w3-cell w3-cell-middle w3-container" style="width: 100%;" >
+                    <img src="heart.png" height="100px" id="8heart1" style="display: none;">
+                    <img src="heart.png" height="100px" id="8heart2" style="display: none;">
+                    <img src="heart.png" height="100px" id="8heart3" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="8heart4" style="display: none;">
+                    <img src="goldheart.png" height="100px" id="8heart5" style="display: none;">
+                </div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+
+    </body>
+</html>
